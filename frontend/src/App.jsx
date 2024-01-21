@@ -41,7 +41,7 @@ const App = () => {
 
     // Generate random depth and width for the data structure with a minimum depth of 2
     const depth = Math.max(Math.floor(Math.random() * 10), 2); // Ensure minimum depth of 2
-    const width = Math.max(Math.floor(Math.random() * 5), 2); // Ensure minimum width of 2
+    const width = Math.max(Math.floor(Math.random() * 7), 2); // Ensure minimum width of 2
 
     // Create a top-level array containing dictionaries
     const listLength = Math.max(Math.floor(Math.random() * width), 2); // Ensure a minimum length of 2 for the outer list
@@ -61,7 +61,7 @@ const App = () => {
     setIsCardView(!isCardView); // Toggle the view
   };
 
-  console.log("json type", typeof json);
+  // console.log("json type", typeof json);
 
   // Helper function to apply inline styles to JSON code
   const applyStylesToJSON = (code) => {
@@ -94,6 +94,12 @@ const App = () => {
     );
   };
 
+    // Helper function to check if a JSON object contains a string
+    const containsString = (obj, str) => {
+      const objStr = JSON.stringify(obj).toLowerCase();
+      return objStr.includes(str.toLowerCase());
+    };
+
   // Test the function
   // console.log(generateRandomJSON());
   return (
@@ -110,15 +116,17 @@ const App = () => {
             onChange={(event) => {
               setSearchTerm(event.target.value);
             }}
+            style={{padding:"7px"}}
           />
         )}
 
-
         {isCardView ? (
           <div className={styles.cardArea}>
-            {JSON.parse(json).map((item, index) => (
-              <Card key={index} title={`Item ${index + 1}`} code={item} />
-            ))}
+            {JSON.parse(json)
+              .filter((item) => containsString(item, searchTerm))
+              .map((item, index) => (
+                <Card key={index} title={`Item ${index + 1}`} code={item} />
+              ))}
           </div>
         ) : (
           <div className={styles.viewArea}>

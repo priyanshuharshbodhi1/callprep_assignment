@@ -1,46 +1,43 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import styles from "./card.module.css";
 
-import OpenAI from "openai";
+// import OpenAI from "openai";
 
 // const openai = new OpenAI();
 
 
 
 const Card = ({ icon, title, code }) => {
-  // const apiKey = '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';
-  // const openai = new OpenAI({ apiKey, dangerouslyAllowBrowser: true });
 
-  // const [keywords, setKeywords] = React.useState([]);
+  // const apiKey = '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';
+  // const openai = new OpenAI({apiKey: apiKey , dangerouslyAllowBrowser: true});
 
-  // React.useEffect(() => {
+  // const [keywords, setKeywords] = useState([]);
+
+  // useEffect(() => {
   //   const fetchKeywords = async () => {
-  //     const response = await openai.createCompletion({
-  //       engine: 'text-davinci-002',
-  //       prompt: 'Translate the following English text to French: "{Your text here}"',
-  //       max_tokens: 60,
-  //     });
+  //     // const response = await openai.createCompletion.create({
+  //     //   engine: 'text-davinci-002',
+  //     //   prompt: 'Generate keywords for the following text: "{Your text here}"',
+  //     //   max_tokens: 60,
+  //     // });
 
-  //     const extractedKeywords = response.data.choices[0].text.split(',');
-  //     setKeywords(extractedKeywords);
+  //     const completion = await openai.completions.create({
+  //       model: "gpt-3.5-turbo-instruct",
+  //       prompt: "This story begins",
+  //       max_tokens: 30,
+  //     });
+  //     console.log(completion.choices[0].text);
+      
+
+  //     // const extractedKeywords = response.data.choices[0].text.split(',');
+  //     // setKeywords(extractedKeywords);
   //   };
 
   //   fetchKeywords();
   // }, []);
 
   // console.log('keywords', keywords);
-
-  // async function main() {
-  //   const completion = await openai.completions.create({
-  //     model: "gpt-3.5-turbo-instruct",
-  //     prompt: "Say this is a test.",
-  //     max_tokens: 7,
-  //     temperature: 0,
-  //   });
-  
-  //   console.log(completion);
-  // }
-  // main();
 
   // Convert JSON data to tree view
   function convertToTreeView(data, indent = 0) {
@@ -68,7 +65,7 @@ const Card = ({ icon, title, code }) => {
     return result;
   }
 
-  console.log("code type", typeof code);
+  // console.log("code type", typeof code);
 
   // Example JSON data (you can replace this with your generated JSON)
   const jsonData = {
@@ -93,12 +90,12 @@ const Card = ({ icon, title, code }) => {
   const treeView = convertToTreeView(jsonData);
 
   // Display the tree view
-  console.log(treeView);
+  // console.log(treeView);
 
   // Copy the tree view to clipboard
   const handleCopy = () => {
     navigator.clipboard.writeText(JSON.stringify(code));
-    console.log("copied");
+    // console.log("copied");
   };
 
   // Download as a json file
@@ -136,6 +133,7 @@ const Card = ({ icon, title, code }) => {
       {/* <pre className={styles.code}>{convertToTreeView(code)}</pre> */}
       <pre
         className={styles.code}
+        style={{padding:"1rem"}}
         dangerouslySetInnerHTML={{ __html: convertToTreeView(code) }}
       />
     </div>
