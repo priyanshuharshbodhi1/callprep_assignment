@@ -1,3 +1,7 @@
+## How to start the server
+node server.js
+add MONGODB_URL and PORT to .env file
+
 ## API Endpoint
 
 POST `http://localhost:5000/api/student`
