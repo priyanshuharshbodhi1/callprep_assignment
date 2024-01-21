@@ -1225,3 +1225,15 @@ INFO [2024-01-21T17:26:08.288Z]: project_reinitialize_start
 INFO [2024-01-21T17:26:08.290Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
 INFO [2024-01-21T17:26:11.822Z]: project_reinitialize_success
 INFO [2024-01-21T17:26:11.823Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-21T17:50:11.742Z]: project_reinitialize_start
+INFO [2024-01-21T17:50:11.744Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-21T17:50:16.631Z]: project_reinitialize_success
+INFO [2024-01-21T17:50:16.632Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-21T17:51:51.311Z]: project_reinitialize_start
+INFO [2024-01-21T17:51:51.312Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-21T17:51:54.180Z]: project_reinitialize_success
+INFO [2024-01-21T17:51:54.181Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-21T17:52:42.076Z]: project_reinitialize_start
+INFO [2024-01-21T17:52:42.076Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-21T17:52:46.137Z]: project_reinitialize_success
+INFO [2024-01-21T17:52:46.138Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}

@@ -20,21 +20,14 @@ app.use(
   })
 );
 
-const User = require("./models/student.js");
-// const Product = require("./models/product.js");
-
-// APIs------------------------------------------
-
 //health api
 app.get("/health", (req, res) => {
   res.json({ message: "All good!" });
 });
 
 const studentRoutes = require("./routes/studentRoutes");
-// const productRoutes = require("./routes/productRoutes");
 
 app.use("/", studentRoutes);
-// app.use("/", productRoutes);
 
 app.listen(PORT, () => {
   mongoose

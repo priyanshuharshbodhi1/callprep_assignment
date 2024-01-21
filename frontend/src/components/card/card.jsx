@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import styles from "./card.module.css";
 
 // import OpenAI from "openai";
@@ -64,33 +64,6 @@ const Card = ({ icon, title, code }) => {
 
     return result;
   }
-
-  // console.log("code type", typeof code);
-
-  // Example JSON data (you can replace this with your generated JSON)
-  const jsonData = {
-    bcfrl: {
-      lomrw: {
-        hi: 21,
-      },
-      ykrdi: {
-        svlwx: {},
-        idzvm: {
-          gnsoa: {},
-          hyeci: {},
-        },
-      },
-      61: {
-        feauy: {},
-      },
-      dcomn: {},
-    },
-  };
-  // Convert JSON data to tree view
-  const treeView = convertToTreeView(jsonData);
-
-  // Display the tree view
-  // console.log(treeView);
 
   // Copy the tree view to clipboard
   const handleCopy = () => {

@@ -1,4 +1,4 @@
-//For more scalability in mind
+//For more scalability in mind (for adding more subjects in the future), I have created a separate schema for marks.
 
 const mongoose = require('mongoose');
 
