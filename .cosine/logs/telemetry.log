@@ -1,0 +1,60 @@
+
+INFO [2024-01-21T06:51:57.022Z]: Preparing to initialize extension
+INFO [2024-01-21T06:51:58.026Z]: Registering flag observer
+INFO [2024-01-21T06:51:58.026Z]: Navigating to loading page
+INFO [2024-01-21T06:51:58.026Z]: Navigation
+INFO [2024-01-21T06:51:58.026Z]: {"page":"/loading"}
+INFO [2024-01-21T06:51:58.027Z]: Initializing workspace controller
+INFO [2024-01-21T06:51:58.029Z]: Creating URI handler
+INFO [2024-01-21T06:51:58.029Z]: Getting auth service props
+INFO [2024-01-21T06:51:58.033Z]: Creating auth service
+INFO [2024-01-21T06:51:58.034Z]: Setting network auth service
+INFO [2024-01-21T06:51:58.034Z]: Creating context store
+INFO [2024-01-21T06:51:58.034Z]: Creating engine
+INFO [2024-01-21T06:51:58.034Z]: Creating sql db
+INFO [2024-01-21T06:51:58.202Z]: Creating vector db
+INFO [2024-01-21T06:51:58.204Z]: Creating config manager
+INFO [2024-01-21T06:51:58.216Z]: Get languages
+INFO [2024-01-21T06:51:58.216Z]: Reading ALL files
+INFO [2024-01-21T06:51:58.224Z]: Get Overview
+INFO [2024-01-21T06:51:58.225Z]: Creating code parser
+INFO [2024-01-21T06:51:58.225Z]: Creating code index
+INFO [2024-01-21T06:51:58.229Z]: Creating graphs
+INFO [2024-01-21T06:51:58.230Z]: Creating tagger
+INFO [2024-01-21T06:51:58.231Z]: Creating semantic
+INFO [2024-01-21T06:51:58.231Z]: Creating keyword
+INFO [2024-01-21T06:51:58.231Z]: Creating file search
+INFO [2024-01-21T06:51:58.232Z]: Initializing engine
+INFO [2024-01-21T06:51:58.549Z]: [CodeTagger.init] Initializing
+INFO [2024-01-21T06:51:58.552Z]: Initializing history service
+INFO [2024-01-21T06:51:58.552Z]: Creating project bot props
+INFO [2024-01-21T06:51:58.552Z]: Creating plan service
+INFO [2024-01-21T06:51:58.552Z]: Creating terms service
+INFO [2024-01-21T06:51:58.552Z]: Creating auth controller
+INFO [2024-01-21T06:51:58.553Z]: Initializing auth controller
+INFO [2024-01-21T06:51:58.554Z]: Checking auth
+INFO [2024-01-21T06:52:01.652Z]: Set User: lFKxFCOOWmSxo1pG6GIRjgGM9HK2
+INFO [2024-01-21T06:52:01.706Z]: Creating plan controller
+INFO [2024-01-21T06:52:01.707Z]: Initializing plan controller
+INFO [2024-01-21T06:52:02.453Z]: Creating status controller
+INFO [2024-01-21T06:52:02.454Z]: Creating chat bot
+INFO [2024-01-21T06:52:02.459Z]: Creating git service
+INFO [2024-01-21T06:52:02.459Z]: Creating user context
+INFO [2024-01-21T06:52:02.459Z]: Creating search controller
+INFO [2024-01-21T06:52:02.460Z]: Initializing search controller
+INFO [2024-01-21T06:52:02.469Z]: Creating index controller
+INFO [2024-01-21T06:52:02.469Z]: Initializing index controller
+INFO [2024-01-21T06:52:02.469Z]: Creating migrate controller
+INFO [2024-01-21T06:52:02.470Z]: Initializing migrate controller
+INFO [2024-01-21T06:52:02.470Z]: Creating settings controller
+INFO [2024-01-21T06:52:02.470Z]: Initializing settings controller
+INFO [2024-01-21T06:52:02.471Z]: Creating navigation controller
+INFO [2024-01-21T06:52:02.471Z]: Initializing navigation controller
+INFO [2024-01-21T06:52:02.471Z]: Registering auth service with auth controller
+INFO [2024-01-21T06:52:02.471Z]: Calculating navigation
+INFO [2024-01-21T06:52:02.534Z]: Navigation
+INFO [2024-01-21T06:52:02.534Z]: {"page":"/initialize/project"}
+INFO [2024-01-21T06:52:02.535Z]: Fully initialized!
+INFO [2024-01-21T06:52:02.540Z]: extension_initialized
+INFO [2024-01-21T06:52:02.540Z]: {"timeToInit":5516}
+INFO [2024-01-21T06:52:02.610Z]: Reading ALL files
