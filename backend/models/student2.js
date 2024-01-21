@@ -1,5 +1,24 @@
 const mongoose = require("mongoose");
 
+const marksSchema = new mongoose.Schema({
+  obtained: {
+    type: Number,
+    required: true,
+    min: [0, 'Obtained marks must be non-negative'],
+    // validate: {
+    //   validator: function(v) {
+    //     return v <= this.total;
+    //   },
+    //   message: 'Obtained marks cannot exceed total marks'
+    // }
+  },
+  total: {
+    type: Number,
+    required: true,
+    min: [1, 'Total marks must be positive']
+  },
+});
+
 const scoreSchema = new mongoose.Schema({
   first_name: {
     type: String,
@@ -13,18 +32,19 @@ const scoreSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  gender: {
+    type: String,
+    required: true,
+  },
   scores: {
-    subjects: {
-      type: [String],
-      required: true,
+    physics: {
+      type: marksSchema,
+      required: true
     },
-    marks_obtained: {
-      type: [Number],
-      required: true,
-    },
-    total_marks: {
-      type: [Number],
-      required: true,
+    chemistry: marksSchema, // optional
+    maths: {
+      type: marksSchema,
+      required: true
     },
   },
 });
