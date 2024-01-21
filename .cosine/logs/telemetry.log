@@ -1,187 +1,3 @@
-INFO [2024-01-21T10:10:39.693Z]: {"language":"JavaScript","percent":100}
-INFO [2024-01-21T10:10:39.693Z]: [CodeGraphOrchestrator.preIndex] Linking complete
-INFO [2024-01-21T10:10:39.693Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:10:39.693Z]: [CodeGraphOrchestrator.preIndex] Preindexed
-INFO [2024-01-21T10:10:40.860Z]: [SemanticCodeSearch.preIndex] Embedded components
-INFO [2024-01-21T10:10:40.862Z]: {"length":4}
-INFO [2024-01-21T10:10:40.862Z]: [Engine.indexCode]: Preindexed semantic & graph
-INFO [2024-01-21T10:10:40.863Z]: [Engine.indexCode] Indexing code
-INFO [2024-01-21T10:10:40.863Z]: [KeywordCodeSearch.index] Indexing
-INFO [2024-01-21T10:10:40.869Z]: [KeywordCodeSearch.index] Saving index
-INFO [2024-01-21T10:10:40.870Z]: [CodeGraphOrchestrator.index] Indexing
-INFO [2024-01-21T10:10:40.870Z]: [CodeGraphOrchestrator.index] Indexing Language
-INFO [2024-01-21T10:10:40.870Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:10:40.907Z]: [CodeGraphOrchestrator.index] Indexed
-INFO [2024-01-21T10:10:40.909Z]: [KeywordCodeSearch.index] Indexed
-INFO [2024-01-21T10:10:40.910Z]: [SemanticCodeSearch.index] Indexing components
-INFO [2024-01-21T10:10:40.910Z]: {"added":4,"deleted":4}
-INFO [2024-01-21T10:10:40.910Z]: [SemanticCodeSearch.index] Deleting components
-INFO [2024-01-21T10:10:40.910Z]: {"embeddingsToDelete":4}
-INFO [2024-01-21T10:10:40.910Z]: [SemanticCodeSearch.index] Writing components
-INFO [2024-01-21T10:10:40.910Z]: {"write":4}
-INFO [2024-01-21T10:10:41.140Z]: [SemanticCodeSearch.index] Indexed components
-INFO [2024-01-21T10:10:41.143Z]: {"resuts":4,"delete":4}
-INFO [2024-01-21T10:10:41.143Z]: [CodeIndex.index] Indexing with MetaDB
-INFO [2024-01-21T10:10:41.143Z]: {"files":{"added":0,"changed":1,"deleted":0}}
-INFO [2024-01-21T10:10:41.159Z]: [CodeIndex.index] Indexed with MetaDB
-INFO [2024-01-21T10:10:41.497Z]: [CodeTagger.index] Starting to index
-INFO [2024-01-21T10:10:41.607Z]: [Engine.indexCode] Indexed code
-INFO [2024-01-21T10:10:41.608Z]: [KeywordCodeSearch.diffIndex] Computing diff
-INFO [2024-01-21T10:10:41.609Z]: [KeywordCodeSearch.diffIndex] Diff computed
-INFO [2024-01-21T10:10:41.609Z]: {"adding":0,"deleting":0}
-INFO [2024-01-21T10:10:41.621Z]: project_reinitialize_success
-INFO [2024-01-21T10:10:41.622Z]: {}
-INFO [2024-01-21T10:11:54.908Z]: project_reinitialize_start
-INFO [2024-01-21T10:11:54.909Z]: {}
-INFO [2024-01-21T10:11:55.183Z]: [Engine.indexCode] Preindexing with graph
-INFO [2024-01-21T10:11:55.188Z]: [SemanticCodeSearch.preIndex] Embedding components
-INFO [2024-01-21T10:11:55.188Z]: {"added":4,"deleted":6}
-INFO [2024-01-21T10:11:55.198Z]: [CodeGraphOrchestrator.preIndex] Preindexing
-INFO [2024-01-21T10:11:55.198Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:11:55.198Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:11:55.348Z]: [CodeGraphOrchestrator.preIndex] Symbolising
-INFO [2024-01-21T10:11:55.353Z]: {"language":"JavaScript","percent":100,"file":"frontend/src/components/card/card.jsx"}
-INFO [2024-01-21T10:11:55.672Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:11:55.676Z]: {"language":"JavaScript","percent":100,"file":"frontend/src/components/card/card.jsx"}
-INFO [2024-01-21T10:11:55.676Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:11:55.676Z]: {"language":"JavaScript","percent":100}
-INFO [2024-01-21T10:11:55.677Z]: [CodeGraphOrchestrator.preIndex] Linking complete
-INFO [2024-01-21T10:11:55.677Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:11:55.677Z]: [CodeGraphOrchestrator.preIndex] Preindexed
-INFO [2024-01-21T10:11:56.708Z]: [SemanticCodeSearch.preIndex] Embedded components
-INFO [2024-01-21T10:11:56.711Z]: {"length":4}
-INFO [2024-01-21T10:11:56.711Z]: [Engine.indexCode]: Preindexed semantic & graph
-INFO [2024-01-21T10:11:56.711Z]: [Engine.indexCode] Indexing code
-INFO [2024-01-21T10:11:56.711Z]: [KeywordCodeSearch.index] Indexing
-INFO [2024-01-21T10:11:56.720Z]: [KeywordCodeSearch.index] Saving index
-INFO [2024-01-21T10:11:56.720Z]: [CodeGraphOrchestrator.index] Indexing
-INFO [2024-01-21T10:11:56.720Z]: [CodeGraphOrchestrator.index] Indexing Language
-INFO [2024-01-21T10:11:56.720Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:11:56.746Z]: [CodeGraphOrchestrator.index] Indexed
-INFO [2024-01-21T10:11:56.749Z]: [KeywordCodeSearch.index] Indexed
-INFO [2024-01-21T10:11:56.749Z]: [SemanticCodeSearch.index] Indexing components
-INFO [2024-01-21T10:11:56.749Z]: {"added":4,"deleted":6}
-INFO [2024-01-21T10:11:56.749Z]: [SemanticCodeSearch.index] Deleting components
-INFO [2024-01-21T10:11:56.749Z]: {"embeddingsToDelete":6}
-INFO [2024-01-21T10:11:56.749Z]: [SemanticCodeSearch.index] Writing components
-INFO [2024-01-21T10:11:56.749Z]: {"write":4}
-INFO [2024-01-21T10:11:56.862Z]: [SemanticCodeSearch.index] Indexed components
-INFO [2024-01-21T10:11:56.865Z]: {"resuts":4,"delete":6}
-INFO [2024-01-21T10:11:56.865Z]: [CodeIndex.index] Indexing with MetaDB
-INFO [2024-01-21T10:11:56.865Z]: {"files":{"added":0,"changed":1,"deleted":0}}
-INFO [2024-01-21T10:11:56.876Z]: [CodeIndex.index] Indexed with MetaDB
-INFO [2024-01-21T10:11:56.930Z]: [CodeTagger.index] Starting to index
-INFO [2024-01-21T10:11:57.379Z]: [Engine.indexCode] Indexed code
-INFO [2024-01-21T10:11:57.382Z]: [KeywordCodeSearch.diffIndex] Computing diff
-INFO [2024-01-21T10:11:57.383Z]: [KeywordCodeSearch.diffIndex] Diff computed
-INFO [2024-01-21T10:11:57.383Z]: {"adding":0,"deleting":0}
-INFO [2024-01-21T10:11:57.398Z]: project_reinitialize_success
-INFO [2024-01-21T10:11:57.400Z]: {}
-INFO [2024-01-21T10:13:16.304Z]: project_reinitialize_start
-INFO [2024-01-21T10:13:16.305Z]: {}
-INFO [2024-01-21T10:13:16.502Z]: [Engine.indexCode] Preindexing with graph
-INFO [2024-01-21T10:13:16.507Z]: [SemanticCodeSearch.preIndex] Embedding components
-INFO [2024-01-21T10:13:16.507Z]: {"added":4,"deleted":4}
-INFO [2024-01-21T10:13:16.518Z]: [CodeGraphOrchestrator.preIndex] Preindexing
-INFO [2024-01-21T10:13:16.519Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:13:16.519Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:13:16.763Z]: [CodeGraphOrchestrator.preIndex] Symbolising
-INFO [2024-01-21T10:13:16.772Z]: {"language":"JavaScript","percent":100,"file":"frontend/src/components/card/card.jsx"}
-INFO [2024-01-21T10:13:16.958Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:13:16.959Z]: {"language":"JavaScript","percent":100,"file":"frontend/src/components/card/card.jsx"}
-INFO [2024-01-21T10:13:16.960Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:13:16.960Z]: {"language":"JavaScript","percent":100}
-INFO [2024-01-21T10:13:16.960Z]: [CodeGraphOrchestrator.preIndex] Linking complete
-INFO [2024-01-21T10:13:16.960Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:13:16.960Z]: [CodeGraphOrchestrator.preIndex] Preindexed
-INFO [2024-01-21T10:13:18.227Z]: [SemanticCodeSearch.preIndex] Embedded components
-INFO [2024-01-21T10:13:18.228Z]: {"length":4}
-INFO [2024-01-21T10:13:18.228Z]: [Engine.indexCode]: Preindexed semantic & graph
-INFO [2024-01-21T10:13:18.228Z]: [Engine.indexCode] Indexing code
-INFO [2024-01-21T10:13:18.228Z]: [KeywordCodeSearch.index] Indexing
-INFO [2024-01-21T10:13:18.234Z]: [KeywordCodeSearch.index] Saving index
-INFO [2024-01-21T10:13:18.234Z]: [CodeGraphOrchestrator.index] Indexing
-INFO [2024-01-21T10:13:18.234Z]: [CodeGraphOrchestrator.index] Indexing Language
-INFO [2024-01-21T10:13:18.234Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:13:18.260Z]: [KeywordCodeSearch.index] Indexed
-INFO [2024-01-21T10:13:18.262Z]: [CodeGraphOrchestrator.index] Indexed
-INFO [2024-01-21T10:13:18.262Z]: [SemanticCodeSearch.index] Indexing components
-INFO [2024-01-21T10:13:18.262Z]: {"added":4,"deleted":4}
-INFO [2024-01-21T10:13:18.262Z]: [SemanticCodeSearch.index] Deleting components
-INFO [2024-01-21T10:13:18.262Z]: {"embeddingsToDelete":4}
-INFO [2024-01-21T10:13:18.262Z]: [SemanticCodeSearch.index] Writing components
-INFO [2024-01-21T10:13:18.262Z]: {"write":4}
-INFO [2024-01-21T10:13:18.377Z]: [SemanticCodeSearch.index] Indexed components
-INFO [2024-01-21T10:13:18.379Z]: {"resuts":4,"delete":4}
-INFO [2024-01-21T10:13:18.379Z]: [CodeIndex.index] Indexing with MetaDB
-INFO [2024-01-21T10:13:18.379Z]: {"files":{"added":0,"changed":1,"deleted":0}}
-INFO [2024-01-21T10:13:18.393Z]: [CodeIndex.index] Indexed with MetaDB
-INFO [2024-01-21T10:13:18.491Z]: [CodeTagger.index] Starting to index
-INFO [2024-01-21T10:13:18.896Z]: [Engine.indexCode] Indexed code
-INFO [2024-01-21T10:13:18.898Z]: [KeywordCodeSearch.diffIndex] Computing diff
-INFO [2024-01-21T10:13:18.898Z]: [KeywordCodeSearch.diffIndex] Diff computed
-INFO [2024-01-21T10:13:18.898Z]: {"adding":0,"deleting":0}
-INFO [2024-01-21T10:13:18.916Z]: project_reinitialize_success
-INFO [2024-01-21T10:13:18.918Z]: {}
-INFO [2024-01-21T10:13:33.463Z]: project_reinitialize_start
-INFO [2024-01-21T10:13:33.465Z]: {}
-INFO [2024-01-21T10:13:33.726Z]: [Engine.indexCode] Preindexing with graph
-INFO [2024-01-21T10:13:33.731Z]: [SemanticCodeSearch.preIndex] Embedding components
-INFO [2024-01-21T10:13:33.731Z]: {"added":4,"deleted":4}
-INFO [2024-01-21T10:13:33.758Z]: [CodeGraphOrchestrator.preIndex] Preindexing
-INFO [2024-01-21T10:13:33.759Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:13:33.759Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:13:33.862Z]: [CodeGraphOrchestrator.preIndex] Symbolising
-INFO [2024-01-21T10:13:33.867Z]: {"language":"JavaScript","percent":100,"file":"frontend/src/components/card/card.jsx"}
-INFO [2024-01-21T10:13:34.122Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:13:34.125Z]: {"language":"JavaScript","percent":100,"file":"frontend/src/components/card/card.jsx"}
-INFO [2024-01-21T10:13:34.125Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:13:34.125Z]: {"language":"JavaScript","percent":100}
-INFO [2024-01-21T10:13:34.125Z]: [CodeGraphOrchestrator.preIndex] Linking complete
-INFO [2024-01-21T10:13:34.125Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:13:34.125Z]: [CodeGraphOrchestrator.preIndex] Preindexed
-INFO [2024-01-21T10:13:35.271Z]: [SemanticCodeSearch.preIndex] Embedded components
-INFO [2024-01-21T10:13:35.272Z]: {"length":4}
-INFO [2024-01-21T10:13:35.272Z]: [Engine.indexCode]: Preindexed semantic & graph
-INFO [2024-01-21T10:13:35.273Z]: [Engine.indexCode] Indexing code
-INFO [2024-01-21T10:13:35.273Z]: [KeywordCodeSearch.index] Indexing
-INFO [2024-01-21T10:13:35.281Z]: [KeywordCodeSearch.index] Saving index
-INFO [2024-01-21T10:13:35.281Z]: [CodeGraphOrchestrator.index] Indexing
-INFO [2024-01-21T10:13:35.281Z]: [CodeGraphOrchestrator.index] Indexing Language
-INFO [2024-01-21T10:13:35.281Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:13:35.308Z]: [KeywordCodeSearch.index] Indexed
-INFO [2024-01-21T10:13:35.309Z]: [CodeGraphOrchestrator.index] Indexed
-INFO [2024-01-21T10:13:35.309Z]: [SemanticCodeSearch.index] Indexing components
-INFO [2024-01-21T10:13:35.309Z]: {"added":4,"deleted":4}
-INFO [2024-01-21T10:13:35.310Z]: [SemanticCodeSearch.index] Deleting components
-INFO [2024-01-21T10:13:35.310Z]: {"embeddingsToDelete":4}
-INFO [2024-01-21T10:13:35.310Z]: [SemanticCodeSearch.index] Writing components
-INFO [2024-01-21T10:13:35.310Z]: {"write":4}
-INFO [2024-01-21T10:13:35.422Z]: [SemanticCodeSearch.index] Indexed components
-INFO [2024-01-21T10:13:35.426Z]: {"resuts":4,"delete":4}
-INFO [2024-01-21T10:13:35.426Z]: [CodeIndex.index] Indexing with MetaDB
-INFO [2024-01-21T10:13:35.426Z]: {"files":{"added":0,"changed":1,"deleted":0}}
-INFO [2024-01-21T10:13:35.441Z]: [CodeIndex.index] Indexed with MetaDB
-INFO [2024-01-21T10:13:35.469Z]: [CodeTagger.index] Starting to index
-INFO [2024-01-21T10:13:35.828Z]: [Engine.indexCode] Indexed code
-INFO [2024-01-21T10:13:35.831Z]: [KeywordCodeSearch.diffIndex] Computing diff
-INFO [2024-01-21T10:13:35.831Z]: [KeywordCodeSearch.diffIndex] Diff computed
-INFO [2024-01-21T10:13:35.831Z]: {"adding":0,"deleting":0}
-INFO [2024-01-21T10:13:35.865Z]: project_reinitialize_success
-INFO [2024-01-21T10:13:35.867Z]: {}
-INFO [2024-01-21T10:14:07.017Z]: project_reinitialize_start
-INFO [2024-01-21T10:14:07.019Z]: {}
-INFO [2024-01-21T10:14:07.360Z]: [Engine.indexCode] Preindexing with graph
-INFO [2024-01-21T10:14:07.366Z]: [SemanticCodeSearch.preIndex] Embedding components
-INFO [2024-01-21T10:14:07.366Z]: {"added":4,"deleted":4}
-INFO [2024-01-21T10:14:07.400Z]: [CodeGraphOrchestrator.preIndex] Preindexing
-INFO [2024-01-21T10:14:07.400Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:14:07.400Z]: {"language":"JavaScript"}
-INFO [2024-01-21T10:14:07.519Z]: [CodeGraphOrchestrator.preIndex] Symbolising
-INFO [2024-01-21T10:14:07.521Z]: {"language":"JavaScript","percent":100,"file":"frontend/src/components/card/card.jsx"}
-INFO [2024-01-21T10:14:07.764Z]: [CodeGraphOrchestrator.preIndex] Linking
-INFO [2024-01-21T10:14:07.766Z]: {"language":"JavaScript","percent":100,"file":"frontend/src/components/card/card.jsx"}
-INFO [2024-01-21T10:14:07.767Z]: [CodeGraphOrchestrator.preIndex] Linking
 INFO [2024-01-21T10:14:07.767Z]: {"language":"JavaScript","percent":100}
 INFO [2024-01-21T10:14:07.767Z]: [CodeGraphOrchestrator.preIndex] Linking complete
 INFO [2024-01-21T10:14:07.767Z]: {"language":"JavaScript"}
@@ -9998,3 +9814,187 @@ INFO [2024-01-21T17:08:25.665Z]: [KeywordCodeSearch.diffIndex] Diff computed
 INFO [2024-01-21T17:08:25.665Z]: {"adding":0,"deleting":0}
 INFO [2024-01-21T17:08:25.687Z]: project_reinitialize_success
 INFO [2024-01-21T17:08:25.690Z]: {}
+INFO [2024-01-21T17:13:42.960Z]: project_reinitialize_start
+INFO [2024-01-21T17:13:42.967Z]: {}
+INFO [2024-01-21T17:13:44.004Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-21T17:13:44.011Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-21T17:13:44.011Z]: {"added":6,"deleted":1}
+INFO [2024-01-21T17:13:44.029Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-21T17:13:44.029Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:13:44.029Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:13:44.183Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-21T17:13:44.190Z]: {"language":"JavaScript","percent":100,"file":"backend/routes/studentRoutes.js"}
+INFO [2024-01-21T17:13:44.677Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:13:44.687Z]: {"language":"JavaScript","percent":100,"file":"backend/routes/studentRoutes.js"}
+INFO [2024-01-21T17:13:44.687Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:13:44.687Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-21T17:13:44.688Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-21T17:13:44.688Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:13:44.688Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-21T17:13:45.699Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-21T17:13:45.703Z]: {"length":6}
+INFO [2024-01-21T17:13:45.704Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-21T17:13:45.704Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-21T17:13:45.704Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-21T17:13:45.709Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-21T17:13:45.709Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-21T17:13:45.709Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-21T17:13:45.709Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:13:45.768Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-21T17:13:45.773Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-21T17:13:45.773Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-21T17:13:45.773Z]: {"added":6,"deleted":1}
+INFO [2024-01-21T17:13:45.773Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-21T17:13:45.773Z]: {"embeddingsToDelete":1}
+INFO [2024-01-21T17:13:45.773Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-21T17:13:45.773Z]: {"write":6}
+INFO [2024-01-21T17:13:46.498Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-21T17:13:46.498Z]: {"resuts":6,"delete":1}
+INFO [2024-01-21T17:13:46.498Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-21T17:13:46.498Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-21T17:13:46.561Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-21T17:13:46.572Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-21T17:13:46.660Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-21T17:13:46.661Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-21T17:13:46.661Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-21T17:13:46.661Z]: {"adding":0,"deleting":0}
+INFO [2024-01-21T17:13:46.668Z]: project_reinitialize_success
+INFO [2024-01-21T17:13:46.668Z]: {}
+INFO [2024-01-21T17:15:47.196Z]: project_reinitialize_start
+INFO [2024-01-21T17:15:47.203Z]: {}
+INFO [2024-01-21T17:15:47.389Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-21T17:15:47.395Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-21T17:15:47.395Z]: {"added":20,"deleted":12}
+INFO [2024-01-21T17:15:47.417Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-21T17:15:47.417Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:15:47.417Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:15:48.347Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-21T17:15:48.355Z]: {"language":"JavaScript","percent":100,"file":"backend/routes/studentRoutes.js"}
+INFO [2024-01-21T17:15:48.589Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:15:48.589Z]: {"language":"JavaScript","percent":100,"file":"backend/routes/studentRoutes.js"}
+INFO [2024-01-21T17:15:48.589Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:15:48.589Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-21T17:15:48.589Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-21T17:15:48.589Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:15:48.589Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-21T17:15:50.521Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-21T17:15:50.526Z]: {"length":20}
+INFO [2024-01-21T17:15:50.526Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-21T17:15:50.526Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-21T17:15:50.526Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-21T17:15:50.556Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-21T17:15:50.556Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-21T17:15:50.556Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-21T17:15:50.556Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:15:50.605Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-21T17:15:50.608Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-21T17:15:50.608Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-21T17:15:50.608Z]: {"added":20,"deleted":12}
+INFO [2024-01-21T17:15:50.608Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-21T17:15:50.608Z]: {"embeddingsToDelete":12}
+INFO [2024-01-21T17:15:50.609Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-21T17:15:50.609Z]: {"write":20}
+INFO [2024-01-21T17:15:51.454Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-21T17:15:51.454Z]: {"resuts":20,"delete":12}
+INFO [2024-01-21T17:15:51.454Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-21T17:15:51.454Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-21T17:15:51.471Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-21T17:15:51.489Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-21T17:15:51.788Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-21T17:15:51.794Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-21T17:15:51.795Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-21T17:15:51.795Z]: {"adding":0,"deleting":0}
+INFO [2024-01-21T17:15:51.806Z]: project_reinitialize_success
+INFO [2024-01-21T17:15:51.806Z]: {}
+INFO [2024-01-21T17:16:42.335Z]: project_reinitialize_start
+INFO [2024-01-21T17:16:42.347Z]: {}
+INFO [2024-01-21T17:16:43.449Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-21T17:16:43.454Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-21T17:16:43.454Z]: {"added":4,"deleted":4}
+INFO [2024-01-21T17:16:43.464Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-21T17:16:43.464Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:16:43.464Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:16:43.514Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-21T17:16:43.518Z]: {"language":"JavaScript","percent":100,"file":"backend/routes/studentRoutes.js"}
+INFO [2024-01-21T17:16:44.025Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:16:44.025Z]: {"language":"JavaScript","percent":100,"file":"backend/routes/studentRoutes.js"}
+INFO [2024-01-21T17:16:44.025Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:16:44.025Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-21T17:16:44.025Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-21T17:16:44.025Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:16:44.025Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-21T17:16:45.396Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-21T17:16:45.400Z]: {"length":4}
+INFO [2024-01-21T17:16:45.401Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-21T17:16:45.401Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-21T17:16:45.401Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-21T17:16:45.414Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-21T17:16:45.414Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-21T17:16:45.414Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-21T17:16:45.414Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:16:45.475Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-21T17:16:45.480Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-21T17:16:45.480Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-21T17:16:45.480Z]: {"added":4,"deleted":4}
+INFO [2024-01-21T17:16:45.480Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-21T17:16:45.480Z]: {"embeddingsToDelete":4}
+INFO [2024-01-21T17:16:45.481Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-21T17:16:45.481Z]: {"write":4}
+INFO [2024-01-21T17:16:46.055Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-21T17:16:46.055Z]: {"resuts":4,"delete":4}
+INFO [2024-01-21T17:16:46.055Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-21T17:16:46.055Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-21T17:16:46.128Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-21T17:16:46.144Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-21T17:16:46.261Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-21T17:16:46.261Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-21T17:16:46.261Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-21T17:16:46.261Z]: {"adding":0,"deleting":0}
+INFO [2024-01-21T17:16:46.290Z]: project_reinitialize_success
+INFO [2024-01-21T17:16:46.293Z]: {}
+INFO [2024-01-21T17:26:08.291Z]: project_reinitialize_start
+INFO [2024-01-21T17:26:08.299Z]: {}
+INFO [2024-01-21T17:26:09.356Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-21T17:26:09.364Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-21T17:26:09.364Z]: {"added":1,"deleted":8}
+INFO [2024-01-21T17:26:09.371Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-21T17:26:09.371Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:26:09.371Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:26:09.461Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-21T17:26:09.467Z]: {"language":"JavaScript","percent":100,"file":"backend/routes/studentRoutes.js"}
+INFO [2024-01-21T17:26:09.646Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:26:09.650Z]: {"language":"JavaScript","percent":100,"file":"backend/routes/studentRoutes.js"}
+INFO [2024-01-21T17:26:09.650Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-21T17:26:09.650Z]: {"language":"JavaScript","percent":100}
+INFO [2024-01-21T17:26:09.650Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-21T17:26:09.650Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:26:09.651Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-21T17:26:10.402Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-21T17:26:10.406Z]: {"length":1}
+INFO [2024-01-21T17:26:10.407Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-21T17:26:10.407Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-21T17:26:10.407Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-21T17:26:10.430Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-21T17:26:10.430Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-21T17:26:10.430Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-21T17:26:10.430Z]: {"language":"JavaScript"}
+INFO [2024-01-21T17:26:10.475Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-21T17:26:10.480Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-21T17:26:10.480Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-21T17:26:10.480Z]: {"added":1,"deleted":8}
+INFO [2024-01-21T17:26:10.480Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-21T17:26:10.480Z]: {"embeddingsToDelete":8}
+INFO [2024-01-21T17:26:10.480Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-21T17:26:10.480Z]: {"write":1}
+INFO [2024-01-21T17:26:11.274Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-21T17:26:11.274Z]: {"resuts":1,"delete":8}
+INFO [2024-01-21T17:26:11.274Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-21T17:26:11.274Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-21T17:26:11.514Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-21T17:26:11.665Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-21T17:26:11.802Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-21T17:26:11.802Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-21T17:26:11.803Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-21T17:26:11.803Z]: {"adding":0,"deleting":0}
+INFO [2024-01-21T17:26:11.824Z]: project_reinitialize_success
+INFO [2024-01-21T17:26:11.824Z]: {}
