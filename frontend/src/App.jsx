@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import styles from "./App.module.css";
+import Card from "./components/card/card";
 
 const App = () => {
   const [json, setJson] = useState("");
+  const [isCardView, setIsCardView] = useState(false); // New state variable
+  const [searchTerm, setSearchTerm] = useState("");
 
   function generateRandomJSON() {
     // Generate a random string of fixed length
@@ -38,7 +41,7 @@ const App = () => {
 
     // Generate random depth and width for the data structure with a minimum depth of 2
     const depth = Math.max(Math.floor(Math.random() * 10), 2); // Ensure minimum depth of 2
-    const width = Math.max(Math.floor(Math.random() * 4), 2); // Ensure minimum width of 2
+    const width = Math.max(Math.floor(Math.random() * 5), 2); // Ensure minimum width of 2
 
     // Create a top-level array containing dictionaries
     const listLength = Math.max(Math.floor(Math.random() * width), 2); // Ensure a minimum length of 2 for the outer list
@@ -46,20 +49,87 @@ const App = () => {
       createElement(depth - 1)
     ); // -1 because the outer list adds a level of depth
 
+    console.log(randomData.length);
+
+    console.log("listLength", listLength, "depth", depth, "width", width);
     // Convert the data to a JSON string
     // return JSON.stringify(randomData, null, 2);
     setJson(JSON.stringify(randomData, null, 2));
   }
+
+  const toggleView = () => {
+    setIsCardView(!isCardView); // Toggle the view
+  };
+
+  console.log("json type", typeof json);
+
+  // Helper function to apply inline styles to JSON code
+  const applyStylesToJSON = (code) => {
+    return (
+      <span>
+        {code.split(/(".*?"|\[|\]|\{|\}|,)/).map((part, index) => {
+          if (part === "{" || part === "}") {
+            return (
+              <span key={index} style={{ color: "yellow" }}>
+                {part}
+              </span>
+            );
+          } else if (part.startsWith('"')) {
+            return (
+              <span key={index} style={{ color: "blue" }}>
+                {part}
+              </span>
+            );
+          } else if (part === "," || part === "[") {
+            return <span key={index}>{part}</span>;
+          } else {
+            return (
+              <span key={index} style={{ color: "brown" }}>
+                {part}
+              </span>
+            );
+          }
+        })}
+      </span>
+    );
+  };
 
   // Test the function
   // console.log(generateRandomJSON());
   return (
     <>
       <div className={styles.mainContainer}>
-        <div className={styles.viewArea}>
-          <pre>{json}</pre>
-        </div>
-        <button onClick={generateRandomJSON}>Generate</button>
+        <button onClick={toggleView} disabled={!json} className={styles.btn}>
+          Convert
+        </button>
+        {isCardView && (
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search here..."
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+            }}
+          />
+        )}
+
+
+        {isCardView ? (
+          <div className={styles.cardArea}>
+            {JSON.parse(json).map((item, index) => (
+              <Card key={index} title={`Item ${index + 1}`} code={item} />
+            ))}
+          </div>
+        ) : (
+          <div className={styles.viewArea}>
+            <pre>{applyStylesToJSON(json)}</pre>
+          </div>
+        )}
+        {!isCardView && (
+          <button onClick={generateRandomJSON} className={styles.btn}>
+            Generate
+          </button>
+        )}
       </div>
     </>
   );
